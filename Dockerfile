@@ -7,4 +7,5 @@ COPY package.json .
 RUN npm install
 # copy all source code /files
 COPY . .
+EXPOSE 5000
 CMD [ "npm","start" ]
